@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    font-size: 16px;
+}
+html{
+    font-size: 16px;
+}
+
+.game-container{
+    display: flex;
+    width: 31.25rem;
+    height: 45.6rem;
+    position: absolute;
+    left: 5rem;
+}
+
+.sky{
+    background-image: url(/img/fb-game-background.png);
+    width: 31.25rem;
+    height: 36.25rem;
+    position: absolute;
+}
+#js_timer{
+    text-align: center;
+}
+#timer{
+    position: relative;
+    left: 35%;
+    top: 15rem;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+    color: white;
+    width: 6.25rem;
+}
+.border-left{
+    width: 5rem;
+    height: 49.3rem;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+}
+.border-right{
+    width: 5rem;
+    height: 49.3rem;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    left: 36.25rem;
+}
+.border-top{
+    width: 41.25rem;
+    height: 3.1rem;
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    top: -3.1rem;
+}
+.ground{
+    background-image: url(/img/bottom-background.png);
+    width: 31.2rem;
+    height: 9.3rem;
+    position: absolute;
+    top: 33.1rem;
+    z-index: 1;
+}
+.bird{
+    background-image: url(/img/flappy-bird.png);
+    position: absolute;
+    width: 3.7rem;
+    height: 2.8rem;
+}
+
+.obstacle{
+    background-image: url(/img/flappybird-pipe.png);
+    width: 3.75rem;
+    height: 18.75rem;
+    position: absolute;
+}
+.topobstacle{
+    background-image: url(/img/flappybird-pipe.png);
+    transform: rotate(180deg);
+    width: 3.75rem;
+    height: 18.75rem;
+    position: absolute;
+}
+
+/*=== Responsive for small devises====*/
